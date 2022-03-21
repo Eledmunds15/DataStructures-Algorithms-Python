@@ -116,7 +116,7 @@ Four different types of queues:
 - Insertion and removal of elements can be performed from either the front or the rear. Thus, it no longer follows FIFO
 
 ## Ciruclar Queue
-Circular queus are extended versions of regular queues, where the last element is connected to the first element. Solves the problem of having non-usable empty space in the data structure (e.g. after a while the data structure will have empty space is indexes 0, 1, 2 as elements are dequeued).
+Circular queues are extended versions of regular queues, where the last element is connected to the first element. Solves the problem of having non-usable empty space in the data structure (e.g. after a while the data structure will have empty space is indexes 0, 1, 2 as elements are dequeued).
 
 Circular Queue Operations:
 - Two pointers FRONT and REAR
@@ -135,6 +135,39 @@ Dequeue Operation
 - Return the value pointed by FRONT
 - Circularly increase the FRONT index by 1
 - For the last element, reste the values of FRONT and REAR to -1
+
+## Priority Queue
+Each element is associated with a priority value and elements are served in queue order on the basis of their priority.
+
+Usually, the value for the element itself is considered for assigning the priority. E.g. highest number is higher priority, or lowest number is highest priority. We can set this priority to be different based on our needs.
+
+Priority Queue Impementation:
+- Can be implemented using an array, linked list, heap data structure or binary search tree. Heap data structures is the most efficient out of these.
+
+#NOTE: Since the heap data structure is most efficient, will use this first. Othe data structures used to create queues will be disucssed later.
+
+Priority Queue Operations:
+- Insert element from queue
+- Deleting an element from queue
+- Peeking from the priority queue (Find max/min)
+- Extract-max-min from queue
+
+Insert element into queue:
+1. Insert the new element a the end of the tree
+2. Heapify the tree
+
+Deleteing an element from the queue:
+1. Select the element to be deleted
+2. Swap it with the last element
+3. Remove the last element
+4. Heapify the tree
+
+Peeking from priority queue
+1. Returns the max element from Max Heap or minimum element from Min Heap (basically return rootNode)
+
+Extract-Max/Min from Priority Queue
+1. Return the value of the maxnode/minnode then delete it from the queue.
+
 
 
 

@@ -94,4 +94,28 @@ Basic Operations of Queue:
 - IsFull: Check if the queue is full.
 - Peek: Get the value of the front of the queue without removing it.
 
+## Types of Queues
+Four different types of queues:
+- Simple Queue
+- Circular Queue
+- Priority Queue
+- Double Ended Queue
+
+### Simple Queue
+- Insertion takes place at the rear and removal occurs at the front. Follows FIFO (First In First Out)
+
+### Ciruclar Queue
+- Last element points to the first element making a circular link.
+- Main advantage of a circular queue is better memory utilization. If last position is full and first is empty we can insert the element into the first position.
+
+### Priority Queue
+- Each element sassociated with a pariority and is served according to its priority.
+- If elements have the same priority then they are served according to that priority.
+
+### Deque (Double Ended Queue)
+- Insertion and removal of elements can be performed from either the front or the rear. Thus, it no longer follows FIFO
+
+
+
+
 

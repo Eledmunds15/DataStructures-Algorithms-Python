@@ -162,12 +162,24 @@ Deleteing an element from the queue:
 3. Remove the last element
 4. Heapify the tree
 
-Peeking from priority queue
+Peeking from priority Queue:
 1. Returns the max element from Max Heap or minimum element from Min Heap (basically return rootNode)
 
-Extract-Max/Min from Priority Queue
+Extract-Max/Min from Priority Queue;
 1. Return the value of the maxnode/minnode then delete it from the queue.
 
+## Deque Data Structure
+Double Endede Queues have insertion and removal of elements at both the front and rear. Does not follow FIFO.
+
+Types of Deque:
+- Input Restricted Deque: input is restricted at a single end but allows deletion at both the ends.
+- Output Restricted Deque: output is restricted at a single end by allows insertion at both ends.
+
+Opeartions in Deque:
+- Insert at the FRONT
+- Insert at the REAR
+- Delete from the FRONT
+- Delete from the REAR
 
 
 

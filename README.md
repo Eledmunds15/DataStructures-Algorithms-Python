@@ -115,6 +115,27 @@ Four different types of queues:
 ### Deque (Double Ended Queue)
 - Insertion and removal of elements can be performed from either the front or the rear. Thus, it no longer follows FIFO
 
+## Ciruclar Queue
+Circular queus are extended versions of regular queues, where the last element is connected to the first element. Solves the problem of having non-usable empty space in the data structure (e.g. after a while the data structure will have empty space is indexes 0, 1, 2 as elements are dequeued).
+
+Circular Queue Operations:
+- Two pointers FRONT and REAR
+- FRONT tracks the first element of the queue
+- REAR tracks the last element of the queue
+- Initially, set the value of FRONT and REAR to -1
+
+Enqueue Operation:
+- Check if the queue is full
+- For the first element, set value of FRONT to 0
+- Circularly increase the REAR index to 1 (i.e. if it reaces the end, it would next be at the start of the queue)
+- Add the new element in the position pointed to by REAR
+
+Dequeue Operation
+- Check if the queue is empty
+- Return the value pointed by FRONT
+- Circularly increase the FRONT index by 1
+- For the last element, reste the values of FRONT and REAR to -1
+
 
 
 

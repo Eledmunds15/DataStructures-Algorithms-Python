@@ -1,8 +1,6 @@
 # Data Structures And Algorithms
 
-As an Aerospace Engineering student, I'm not taught much about software and how to solve complex problems using software efficiently. Because of this, I thought I'd learn the basics of Data Structures and Algorithms, because I think it'd contribute to my ability to use computer science/software engineering to solve aerospace problems in the future.
-
-I think this is one the first steps in my journey. In the future, I hope to investigate a lot more about software, such as systems design and development, robotics as well as AI.
+Here are some notes on Data Structures and Algorithms. I've implemented all of them in Python and will attempt to do so in C++ also.
 
 ## Types of Data Structures
 1. Linear Data Structures
@@ -181,7 +179,13 @@ Opeartions in Deque:
 - Delete from the FRONT
 - Delete from the REAR
 
+# Data Structures (II)
+## Linked List Data Structure
+Linear data structure that incldes a series of connected nodes. Each nodes stores data and the address of the next node.
 
+Since the data structure is linear, it has to have a start and an end. The starting node is called HEAD and the final node points to NULL value.
+
+Linked lists can be of multiple types: Singly, Doubly and Circular Linked Lists. 
 
 
 

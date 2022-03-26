@@ -187,5 +187,22 @@ Since the data structure is linear, it has to have a start and an end. The start
 
 Linked lists can be of multiple types: Singly, Doubly and Circular Linked Lists. 
 
+Operations in Linked Lists:
+- Traversal: access each element of a linked list.
+- Insertion: adds a new element to the linked list.
+- Deletion: removes the existing elements.
+- Search: find a node in a linked list.
+- Sort: sort the nodes of a linked list.
+
+## Types of Linked Lists
+3 main types of Linked Lists
+- Singly Linked List: Most common. One node points to another node.
+- Doubly Linked List: Now each node points to the previous node and to the next node.
+- Circular Linked List: Last element points to the first element.
+
+## Hash Tables
+
+
+
 
 

@@ -201,6 +201,23 @@ Operations in Linked Lists:
 - Circular Linked List: Last element points to the first element.
 
 ## Hash Tables
+Stored elements in key-value pairs. Key: unique integer that is used for indexing values. Value: data that are associated with the keys.
+
+### Hashing
+In hash tables, new indexes are produced using keys. The element corresponding to that key is stored in the index. This process if called Hashing. I.e. Let k be a key and h(x) be a hash function. h(k) will give us a new index to store the element linked with k.
+
+### Hash Collision
+When the hash function generates the same index for multiple keys, there will be a conflict (what value to be stored in that index). This is called a hash collision.
+
+Solution:
+- Collision resolution by chaining
+- Open Addressing: Linear/Quadratic Probing and Double Hashing
+
+### Collision Resolution by Chaining
+If a hash function produces the same index for two keys, the keys are stored in that index using a doubly-linked list. 
+
+
+
 
 
 
